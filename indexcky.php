@@ -3,13 +3,14 @@
 
             <section class="Home">                                   
                 <div class="container">
-                    <div class="row align-items-center">
-                        <div class="cus1-img">
-                            <h2>Maneja la info de tus clientes de una manera fácil y rápida</h2>
-                            <img src="assets/img/senorpng.png"  alt="image contact us">
+                    <div class="row">                        
+                        <div class="col-lg-4">
+                            <div class="cus1-img">
+                                <h2>Maneja la info de tus clientes de una manera fácil y rápida</h2>
+                                <img src="assets/img/senorpng.png"  alt="image contact us">
+                            </div>
                         </div>
-                        <div class="col-lg-6"></div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <div class="top-cky">
                                 <img src="assets/img/logofinder.png"  alt="image contact us">
                                 <input type="submit" class="boton boton1-send" value="Registrarme">
