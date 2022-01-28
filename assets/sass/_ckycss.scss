@@ -1,28 +1,30 @@
 /** index Cky **/
+$color_black: #000;
 
 .formulario-cky{
     height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0000;
+   
 }
 
 form{
-    background: #0000;
+  
 }
 
 .form{
     width: 100%;
-    margin: auto;
+    margin: auto;    
 }
 
-form .group{
-    position: relative;
-    margin: 45px;
-    background: #0000;
+form {
+    .group{
+        position: relative;
+        margin: 45px;       
+    }
 }
 
 .cus1-img{
-    background: #0000;
+    
 }
