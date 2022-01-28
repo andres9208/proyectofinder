@@ -11,7 +11,7 @@
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <div class="top-cky">
+                            <div class="top__cky">
                                 <img src="assets/img/logofinder.png"  alt="image contact us">
                                 <input type="submit" class="boton boton1-send" value="Registrarme">
                             </div>  
@@ -30,7 +30,7 @@
                                             <label for="">Contraseña</label>
                                         </div>
 
-                                        <button type="submit">Ingresar</button>
+                                        <button class="btn btn-primary" type="submit">Ingresar</button>
                                     </div>
                                 </form>
                             </div>
