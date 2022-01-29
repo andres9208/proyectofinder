@@ -1,16 +1,18 @@
 <?php include('head.php'); ?>
 
     <section class="Home__cky">                                   
-        <div class="container container__cky">
-            <div class="row row__cky">                        
-                <div class="col-lg-4 izquierda__cky">                            
-                    <h2 class="textocky">Maneja la info de tus clientes de una manera fácil y rápida</h2>
-                    <img src="assets/img/senorpng.png"  alt="image contact us">                            
+        <div class="container__cky">
+            <div class="row__cky">  
+
+                <div class="izquierda__cky">                            
+                    <h2 class="textocky">Maneja la info de tus clientes de una manera fácil y rápida</h2>                    
+                    <img src="assets/img/senorpng.png"  alt="image contact us">                                                                   
                 </div>
-                <div class="col-lg-8 derecha__cky">
-                    <div class="derecha__top__cky">
+
+                <div class="derecha__cky">
+                    <div class="derecha__header__cky">
                         <img src="assets/img/logofinder.png"  alt="image contact us">
-                        <input type="submit" class="boton boton1-send" value="Registrarme">
+                        <input type="submit" class="boton__registrarme__cky" value="Registrarme">
                     </div>  
 
                     <div class="formulario__cky">                                                              
