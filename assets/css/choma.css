@@ -148,6 +148,17 @@
     opacity: .7;
 }
 
+.mb-5 {
+    margin-bottom: 3rem;
+}
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 2.5rem;
+}
+
 @media (max-width: 1600px) {
     .the-container__left__inner img {
         transform: translateX(38%);
@@ -163,15 +174,4 @@
     .the-container__left__inner img {
         transform: translateX(0);
     }
-}
-
-.mb-5 {
-    margin-bottom: 3rem;
-}
-.mt-5 {
-    margin-top: 3rem;
-}
-
-.mb-4 {
-    margin-bottom: 2.5rem;
 }
