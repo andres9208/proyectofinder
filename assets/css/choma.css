@@ -1,0 +1,166 @@
+.the-container {
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    font-family: 'Poppins', sans-serif;
+}
+
+/* weights
+100
+400
+600 */
+
+.the-container__left,
+.the-container__right {
+    text-align: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.the-container__left {
+    width: 45%;
+    background-color: #3E82FF;
+}
+
+.the-container__left__inner {
+    width: 500px;
+}
+
+.the-container__left__inner h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+
+.the-container__left__inner img {
+    width: 100%;
+    transform: translateX(58%);
+    z-index: 10;
+    position: relative;
+}
+
+.the-container__right {
+    width: 55%;
+    background-color: white;
+    position: relative;
+}
+
+.the-container__right__inner {
+    width: 430px;
+}
+
+.the-container__right__inner h2 {
+    color: #3066C8;
+    font-weight: 600;
+}
+
+
+.the-container__right__inner a {
+    color: #104071;
+}
+
+.the-field {
+    border-bottom: 1px solid #D3D3D3;
+    position: relative;
+}
+
+.the-field input {
+    width: 100%;
+    border: 0;
+    height: 40px;
+    outline: none;
+    padding-right: 4rem;
+    color: #D3D3D3;
+}
+
+.the-field label {
+    color: #D3D3D3;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    line-height: 1;
+    top: 0.5rem;
+    transition: top .2s ease-in-out;
+}
+
+.the-field__icon {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.the-field__icon img {
+    object-fit: contain;
+}
+
+.the-field input:focus ~ .formlabel,
+.the-field input:not(:placeholder-shown).forminput:not(:focus) ~ .formlabel {
+    top: -1rem;
+}
+
+.the-container__right__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.samuBtn__register {
+    border: 2px solid #3E82FF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+.samuBtn__register:hover {
+    background-color: #3E82FF;
+    color: white;
+    text-decoration: none;
+}
+
+.samuBtn__signin {
+    font-size: 25px;
+    color: white;
+    border: 0;
+    background: #3E82FF;
+    padding: 0.5rem 0;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.samuBtn__signin:hover {
+    opacity: .7;
+}
+
+@media (max-width: 1600px) {
+    .the-container__left__inner img {
+        transform: translateX(38%);
+    }
+}
+
+@media (max-width: 1400px) {
+    .the-container__left__inner img {
+        transform: translateX(25%);
+    }
+}
+@media (max-width: 1300px) {
+    .the-container__left__inner img {
+        transform: translateX(0);
+    }
+}

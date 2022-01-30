@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AGEA,AAAA,eAAe,AAAA,CACX,MAAM,CAAE,KAAK,CACb,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,KAAK,CACpB,AAED,AAAA,IAAI,AAAA,CACA,UAAU,CAAE,KAAK,CACpB,AAED,AAAA,KAAK,AAAA,CACD,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACf,AAED,AAAA,IAAI,CAAC,MAAM,AAAA,CACP,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,IAAI,CACZ,UAAU,CAAE,KAAK,CACpB,AAED,AAAA,SAAS,AAAA,CACL,UAAU,CAAE,KAAK,CACpB",
-    "sources": [
-        "../sass/main.scss",
-        "../sass/_samukocss.scss",
-        "../sass/_fideoscss.scss",
-        "../sass/_ckycss.scss",
-        "../sass/_heidycss.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["../sass/_ckycss.scss"],"names":[],"mappings":"AAEA,gBACI,YAAA,CACA,YAAA,CACA,sBAAA,CACA,kBAAA,CACA,gBAAA,CAGJ,KACI,gBAAA,CAGJ,MACI,UAAA,CACA,WAAA,CAGJ,YACI,iBAAA,CACA,WAAA,CACA,gBAAA,CAGJ,UACI,gBAAA,CAxBJ,gBACI,YAAA,CACA,YAAA,CACA,sBAAA,CACA,kBAAA,CACA,gBAAA,CAGJ,KACI,gBAAA,CAGJ,MACI,UAAA,CACA,WAAA,CAGJ,YACI,iBAAA,CACA,WAAA,CACA,gBAAA,CAGJ,UACI,gBAAA","file":"main.css"}
