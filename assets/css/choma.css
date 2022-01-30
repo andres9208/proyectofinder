@@ -164,3 +164,14 @@
         transform: translateX(0);
     }
 }
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 2.5rem;
+}

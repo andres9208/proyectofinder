@@ -1,0 +1,47 @@
+/** index Cky **/
+
+.container__cky{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row__cky{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/** izquierda **/
+
+.izquierda__cky{
+    background: #3E82FF; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 46.38%;
+    height: 100%;    
+    padding-top: 188px;           
+}
+
+.izquierda__cky img{
+    position: absolute;
+    width: 800.6px;
+    height: 667.29px;
+    left: 270px;
+    top: 250px;
+}
+
+
+ /** derecha **/
+
+/** Top derecha **/
+
+/** formulario derecha **/
+
+.formulario__cky{
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
