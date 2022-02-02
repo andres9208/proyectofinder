@@ -1,29 +1,46 @@
 /** index Cky **/
 
-.container__cky{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.container-cky{
+    width: 100%;
+    height: 100vh;
+    display: flex; 
 }
 
-.row__cky{
-    margin-right: -15px;
-    margin-left: -15px;
+.container-cky__izquierda, 
+.container-cky__derecha {    
+    text-align: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
 }
-/** izquierda **/
-
-.izquierda__cky{
-    background: #3E82FF; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 46.38%;
-    height: 100%;    
-    padding-top: 188px;           
+.container-cky__izquierda {
+    width: 45%;
+    background-color: #3E82FF;               
 }
 
-.izquierda__cky img{
+.container-cky__izquierda__inner {
+    width: 500px;
+}
+
+.container-cky__izquierda__inner h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+
+.container-cky__derecha {
+    width: 55%;
+    background-color: white;
+    position: relative;
+}
+
+.container-cky__derecha__inner {
+    width: 430px;
+}
+
+.container-cky__izquierda img {
     position: absolute;
     width: 800.6px;
     height: 667.29px;
@@ -31,17 +48,60 @@
     top: 250px;
 }
 
-
- /** derecha **/
-
-/** Top derecha **/
-
-/** formulario derecha **/
-
-.formulario__cky{
+.formulario__cky {
     height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;        
+}
+
+.campo-cky {
+    border-bottom: 1px solid #D3D3D3;
+    position: relative;
+}
+
+.campo-cky input {
+    width: 100%;
+    border: 0;
+    height: 40px;
+    outline: none;
+    padding-right: 4rem;
+    color: #D3D3D3;
+}
+
+.campo-cky label {
+    color: #D3D3D3;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    line-height: 1;
+    top: 0.5rem;
+    transition: top .2s ease-in-out;
+}
+
+.campo-cky__icon {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 100%;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.campo-cky img{
+    object-fit: contain;
+}
+
+.container-cky__derecha__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
