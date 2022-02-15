@@ -1,19 +1,19 @@
 /** index Cky **/
 
-.container-cky{
+.container-cky {
     width: 100%;
     height: 100vh;
     display: flex; 
+    font-family: 'Poppins', sans-serif;
 }
 
-.container-cky__izquierda, 
-.container-cky__derecha {    
+.container-cky__izquierda,
+.container-cky__derecha {
     text-align: center;
     display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
-    
 }
 .container-cky__izquierda {
     width: 45%;
@@ -30,6 +30,13 @@
     color: white;
 }
 
+.container-cky__izquierda__inner img {
+    width: 100%;
+    transform: translateX(58%);
+    z-index: 10;
+    position: relative;
+}
+
 .container-cky__derecha {
     width: 55%;
     background-color: white;
@@ -40,19 +47,14 @@
     width: 430px;
 }
 
-.container-cky__izquierda img {
-    position: absolute;
-    width: 800.6px;
-    height: 667.29px;
-    left: 270px;
-    top: 250px;
+.container-cky__derecha__inner h2 {
+    color: #3066C8;
+    font-weight: 600;
+    font-size: 30px;
 }
 
-.formulario__cky {
-    height: 650px;
-    display: flex;
-    justify-content: center;
-    align-items: center;        
+.container-cky__derecha__inner a {
+    color: #104071;
 }
 
 .campo-cky {
@@ -66,7 +68,7 @@
     height: 40px;
     outline: none;
     padding-right: 4rem;
-    color: #D3D3D3;
+    color: #000000;
 }
 
 .campo-cky label {
@@ -94,6 +96,11 @@
     object-fit: contain;
 }
 
+.campo-cky input:focus ~ .formlabel,
+.campo-cky input:not(:placeholder-shown).forminput:not(:focus) ~ .formlabel {
+    top: -1rem;
+}
+
 .container-cky__derecha__header {
     position: absolute;
     top: 0;
@@ -105,3 +112,62 @@
     padding: 1rem;
 }
 
+.btn-cky__registro {
+    border: 2px solid #3E82FF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 0.5rem 1.5rem;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+.btn-cky__registro:hover {
+    background-color: #3E82FF;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-cky__ingresar {
+    font-size: 25px;
+    color: white;
+    border: 0;
+    background: #3E82FF;
+    padding: 0.5rem 0;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn-cky__ingresar:hover {
+    opacity: .7;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1600px) {
+    .container-cky__izquierda__inner img {
+        transform: translateX(38%);
+    }
+}
+
+@media (max-width: 1400px) {
+    .container-cky__izquierda__inner img {
+        transform: translateX(25%);
+    }
+}
+@media (max-width: 1300px) {
+    .container-cky__izquierda__inner img {
+        transform: translateX(0);
+    }
+}
