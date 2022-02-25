@@ -53,8 +53,14 @@
     font-size: 30px;
 }
 
+.container-cky__derecha__inner h3 {
+    color: #3066C8;
+    font-weight: 600;
+    font-size: 14px;
+}
+
 .container-cky__derecha__inner a {
-    color: #104071;
+    color: #104071;    
 }
 
 .campo-cky {
@@ -128,6 +134,25 @@
     text-decoration: none;
 }
 
+.btn-cky__login {
+    width: 250px; 
+    border: 2px solid #3E82FF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 0.5rem 1.5rem;  
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .2s ease-in-out;
+}
+
+.btn-cky__login:hover {
+    background-color: #3E82FF;
+    color: white;
+    text-decoration: none;
+}
+
 .btn-cky__ingresar {
     font-size: 25px;
     color: white;
@@ -141,6 +166,22 @@
 }
 
 .btn-cky__ingresar:hover {
+    opacity: .7;
+}
+
+.btn-cky__enviarcorreo {
+    font-size: 25px;
+    color: white;
+    border: 0;
+    background: #3E82FF;
+    padding: 0.5rem 0;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.btn-cky__enviarcorreo:hover {
     opacity: .7;
 }
 
