@@ -29,13 +29,12 @@
                         <input type="text" name="correo" placeholder=" " autocomplete="off" id="correo" class="forminput">  
                         <label for="correo" class="formlabel">Correo</label>
                         <div class="campo-cky__icon">
-                            <img src="./assets/img/samu-icon-email.svg" alt="Correo Finder">
+                            <img src="./assets/img/samu-icon-email2.svg" alt="Correo Finder">
                         </div>
                     </div>
 
-                    <button class="btn-cky__enviarcorreo mb-4" type="submit">Enviar correo electrónico</button>   
-                    
-                    <a href="#">¿Has olvidado tu contraseña?</a>
+                    <button class="btn-cky__enviarcorreo mb-4" type="submit">Enviar correo electrónico</button>                    
+                  
                 </form>
                 <a href="#" class="btn-cky__login mt-5">Iniciar Sesión</a>   
             </div>
